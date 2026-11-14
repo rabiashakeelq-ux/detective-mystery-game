@@ -15,3 +15,10 @@ A terminal-based detective game. Explore rooms, collect clues, interrogate suspe
 javac *.java
 java Main
 ```
+
+## GUI Version (Swing)
+```
+javac *.java
+java GameWindow
+```
+Dark noir theme with a drawn night scene, fade transitions, typewriter text, room buttons and a clue panel.
