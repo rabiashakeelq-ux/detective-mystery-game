@@ -1,6 +1,10 @@
 # Detective Mystery Game (Java OOP)
 
-A terminal-based detective game. Explore rooms, collect clues, interrogate suspects and find the killer.
+Explore a mansion, collect clues, interrogate suspects and find who killed Lord Blackwood.
+
+## Versions
+- **Swing GUI (recommended):** `java GameWindow` - animated scenes for 7 rooms, 6 character portraits, clue panel, typewriter text
+- **Terminal:** `java Main` - colored text version
 
 ## OOP Concepts Used
 - Abstraction: `Suspect` (abstract class)
@@ -8,17 +12,12 @@ A terminal-based detective game. Explore rooms, collect clues, interrogate suspe
 - Interface: `Interrogatable`
 - Polymorphism: `interrogate()` behaves differently per suspect
 - Encapsulation: private fields with getters
-- Collections: `ArrayList`
+- Collections: `ArrayList`, `HashMap`
+- Composition: `Room` has `Clue`s and a `Suspect`
 
 ## How to Run
 ```
 javac *.java
-java Main
-```
-
-## GUI Version (Swing)
-```
-javac *.java
 java GameWindow
 ```
-Dark noir theme with a drawn night scene, fade transitions, typewriter text, room buttons and a clue panel.
+Requires Java 14 or newer.
